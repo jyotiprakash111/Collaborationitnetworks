@@ -60,7 +60,6 @@ const NavLinks = React.memo(({ extraClassName }) => {
     return (
         <ul className={`navigation ${extraClassName}`}>
             {renderLinks}
-            {/* <ThemeToggle /> */}
         </ul>
     );
 });
